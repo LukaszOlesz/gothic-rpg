@@ -1,0 +1,102 @@
+
+/*  */
+
+/*!!!          Page Two         !!!*/
+
+/*  */
+
+body {
+    margin: 0px;
+}
+
+.part-two {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+/*  */
+
+/*!!!          Feats         !!!*/
+
+/*  */
+
+
+
+#feats {
+    height: 297mm;
+    width: 105mm;
+    display: flex;
+    justify-content: center;
+}
+
+#featsColumnLines {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+}
+
+
+/*  */
+
+/*!!!          Backstory         !!!*/
+
+/*  */
+
+
+
+#backstory {
+    height: 173mm;
+    width: 105mm;
+}
+
+#backstoryColumnLines {
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+/*  */
+
+/*!!!          Inventory         !!!*/
+
+/*  */
+
+#inventory{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 114mm;
+    width: 95mm;
+    border: 1px solid black;
+}
+
+#magic_Ore {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    height: 10mm;
+    width: 47.5mm;
+}
+
+#inventory_Title {
+    margin-top: 1mm;
+    margin-left: 1mm;
+}
+
+h4 {
+    margin: 0;
+    margin-left: 1mm;
+}
+
+#sleeper {
+    width: 10rem;
+    position:absolute;
+    top: 20rem;
+    left: 12rem
+}
